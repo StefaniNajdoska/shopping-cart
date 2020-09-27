@@ -1,6 +1,6 @@
-import { InitialState } from "../../models/InitialState";
-import { OrderItem } from "../../models/OrderItem";
-import { Product } from "../../models/Product";
+import { InitialState } from "../models/InitialState";
+import { OrderItem } from "../models/OrderItem";
+import { Product } from "../models/Product";
 
 export const initialState: InitialState = {
     inputText: '',

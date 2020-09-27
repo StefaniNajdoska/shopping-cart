@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ShoppingButtons from './components/shopping-buttons/ShoppingButtons';
 import ShoppingList from './components/shopping-list/ShoppingList';
-import { cartReducer, initialState } from './store/reducers/cart.reducer';
+import { cartReducer, initialState } from './reducers/cart.reducer';
 
 const App = () => {
   const [state, dispatch] = useReducer(cartReducer, initialState);
