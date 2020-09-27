@@ -1,4 +1,3 @@
-import { idText } from "typescript";
 import { InitialState } from "../../models/InitialState";
 import { OrderItem } from "../../models/OrderItem";
 import { Product } from "../../models/Product";

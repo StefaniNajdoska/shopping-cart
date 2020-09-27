@@ -12,6 +12,7 @@ interface Props {
 const ShoppingButtons = (props: Props) => {
     useEffect (() =>{
         props.dispatch({ type: 'SET_INPUT_TEXT_AND_PRODUCTS', payload: 'apple, 4, banana, 6.2, strawberry, 2' })
+        // eslint-disable-next-line
     }, []);
 
     const handleClick = (product: Product) => {
